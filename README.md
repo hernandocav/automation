@@ -1,5 +1,5 @@
 # Automation
-Scripts and configration for the environment automation
+Scripts and configuration for the environment automation
 
 [linux/Xdefaults](linux/Xdefaults)
 Configuration for URXVT using ubuntu theme, just rename for .Xdefaults and use in $HOME directory.
