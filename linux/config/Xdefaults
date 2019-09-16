@@ -1,10 +1,8 @@
-#Xft.dpi:                        109
 URxvt*termName:                 rxvt-256color
 URxvt*font:                     xft:Fira Code:pixelsize=12:style=Retina:antialias=true
-#,xft:Inconsolata\ for\ Powerline:pixelsize=12
 URxvt.depth:                    0
 URxvt*lineSpace:                1
-#URxvt.letterSpace:              -4.5
+#URxvt.letterSpace:             -4.5
 URxvt.iso14755:                 false
 URxvt.iso14755_52:              false
 URxvt*geometry:                 65x17
@@ -16,24 +14,23 @@ URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
 URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
 URxvt.clipboard.autocopy:       true
 
-URxvt*iconFile:            /usr/share/icons/nuoveXT2/128x128/apps/gnome-terminal.png
+URxvt*iconFile:    /usr/share/icons/nuoveXT2/128x128/apps/gnome-terminal.png
 
-URxvt.shading: 30 #50
+URxvt.shading:     30 #50
 URxvt.transparent: on
-URxvt.scrollBar: false
-URxvt.visualBell: true
-URxvt*geometry: 256x96
+URxvt.scrollBar:   false
+URxvt.visualBell:  true
+URxvt*geometry:    256x96
 
-URxvt.urlLauncher:        firefox
+URxvt.urlLauncher:  firefox
 
-URxvt.keysym.M-c:         perl:clipboard:copy
-URxvt.keysym.M-v:         perl:clipboard:paste
-URxvt.keysym.M-C-v:       perl:clipboard:paste_escaped
+URxvt.keysym.M-c:   perl:clipboard:copy
+URxvt.keysym.M-v:   perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
 
-*background:   [97]#282a36
-*foreground:   #eff0eb
-*cursorColor:  #9aedfe
-
+*background:  [97]#282a36
+*foreground:  #eff0eb
+*cursorColor: #9aedfe
 *color0:      #33303b
 *color8:      #4f4b58
 *color1:      #ff5c57
