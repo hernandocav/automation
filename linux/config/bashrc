@@ -114,8 +114,8 @@ fi
 
 export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
 parse_git_branch() {
-  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+	git branch 2> /dev/null | grep -e ^* | sed -E  s/^\\\\\*\ \(.+\)$/\(\\\\\1\)\ /` 
 }
-export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+export PS1="\[\e]0;\u@\h: \w\a\]\[\e[1;35m\]\u\[\e[0m\]@\[\e[1;36m\]\H\[\e[0m\]: \[\e[1;32m\]\w\[\033[33m\]$(parse_git_branch)\n\[\e[1;32m\]$\[\e[0m\] "
 
 
